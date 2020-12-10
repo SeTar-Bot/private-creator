@@ -1,11 +1,3 @@
-// =============== Port ===============
-const express = require('express');
-const app = express();
-const port = 3000;
-app.get('/', (req, res) => res.send('Bot Is Working Well!'));
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
-// =============== Bot ===============
-
 const Discord = require('discord.js')
 const client = new Discord.Client()
 const {
